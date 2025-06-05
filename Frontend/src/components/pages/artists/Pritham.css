@@ -1,0 +1,61 @@
+.artist-page {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.artist-header {
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    padding: 10px;
+}
+
+.play-icon {
+    color: green;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: none;
+    gap: 15px; 
+    justify-content: space-between;
+}
+
+.song-rank {
+    width: 30px;
+    text-align: center;
+}
+
+.song-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.song-tit {
+    text-align: center; 
+    flex: 1; 
+}
+
+.song-streams {
+    text-align: center; 
+    flex: 1; 
+}
+
+.song-duration {
+    text-align: right; 
+}

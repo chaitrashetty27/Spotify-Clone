@@ -1,0 +1,125 @@
+/* Signup.css */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  padding-top: 60px; /* Add more padding at the top */
+}
+
+.signup-container .logo {
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 100px; /* Slightly larger logo */
+  height: auto;
+}
+
+.signup-container h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5em; /* Larger heading */
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; /* Take up more width on smaller screens */
+  max-width: 400px; /* Limit maximum width */
+  padding: 20px; /* Add some padding around the form */
+}
+
+.signup-container label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  align-self: flex-start; /* Align label to the left */
+}
+
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+  width: 100%; /* Full width of the form */
+  padding: 14px 16px; /* Increased padding for taller input boxes */
+  border: 1px solid #555; /* Darker border */
+  border-radius: 5px;
+  background-color: #222; /* Darker background */
+  color: white;
+  margin-bottom: 20px;
+  font-size: 16px; /* Slightly larger font size */
+}
+
+.phone-option {
+  display: block;
+  color: #1DB954; /* Spotify green */
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signup-container .next-btn {
+  width: 100%;
+  padding: 14px; /* Increased padding */
+  background-color: #1DB954; /* Spotify green */
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px; /* Larger font size */
+  margin-top: 30px;
+  transition: background-color 0.2s ease;
+}
+
+.signup-container .next-btn:hover {
+  background-color: #1ed760; /* Slightly brighter green on hover */
+}
+
+.or-separator {
+  color: #888;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.signup-with-facebook {
+  width: 100%;
+  padding: 12px;
+  background-color: #4267B2; /* Facebook blue */
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.signup-with-facebook:hover {
+  background-color: #365899;
+}
+
+.login-link {
+  margin-top: 30px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #1DB954;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+} 

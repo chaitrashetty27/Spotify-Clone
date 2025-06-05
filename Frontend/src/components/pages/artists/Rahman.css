@@ -1,0 +1,56 @@
+.rahman-page {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.rahman-header {
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    padding: 10px;
+}
+
+.rahman-page .play-icon {
+    color: green;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.rahman-page .song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduces space between songs */
+}
+
+.rahman-page .song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: none;
+    gap: 15px; /* Reduces extra spacing */
+}
+
+.rahman-page .song-rank {
+    width: 30px;
+    text-align: center;
+}
+
+.rahman-page .song-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.rahman-page .song-title {
+    flex: 1;
+}
+
+.rahman-page .song-streams, 
+.song-duration {
+    margin-left: 10px; /* Reduce spacing */
+}

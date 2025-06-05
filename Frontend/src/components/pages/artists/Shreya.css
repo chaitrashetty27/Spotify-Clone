@@ -1,0 +1,56 @@
+.shreya-page {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.shreya-header {
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    padding: 10px;
+}
+
+.shreya-page .play-icon {
+    color: green;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.shreya-page .song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduces space between songs */
+}
+
+.shreya-page .song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: none;
+    gap: 15px; /* Reduces extra spacing */
+}
+
+.shreya-page .song-rank {
+    width: 30px;
+    text-align: center;
+}
+
+.shreya-page .song-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.shreya-page .song-title {
+    flex: 1;
+}
+
+.shreya-page .song-streams, 
+.song-duration {
+    margin-left: 10px; /* Reduce spacing */
+}

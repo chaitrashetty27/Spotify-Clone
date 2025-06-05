@@ -1,0 +1,134 @@
+.songs-container {
+    padding: 20px;
+    background-color: black;
+    min-height: 150vh;
+  }
+  
+  .song-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+
+  }
+  
+  .songs-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 7%;
+  }
+  
+  .songs-input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    
+    
+  }
+  
+  .songs-button {
+    padding: 10px;
+    border: none;
+    background-color: #1db954;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .songs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  
+  .songs-card {
+    width: 180px;
+    background-color:black;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    color: rgb(141, 138, 138);
+  }
+  .songs-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .songs-image-container {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    position: relative;
+    background-color: black;
+    margin-top: 10%;
+    
+  }
+  
+  .songs-artwork {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    
+  }
+  .songs-play-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .songs-image-container:hover .songs-play-overlay {
+    opacity: 1;
+  }
+  
+  .songs-play-icon {
+    color: white;
+    font-size: 24px;
+  }
+  .songs-info {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .songs-info h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .songs-info p {
+    margin: 4px 0;
+  }
+  .songs-title {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 6px 0 4px;
+    color: white;
+  }
+  
+  .songs-artist {
+    font-size: 14px;
+    color: #cfcccc;
+    margin-bottom: 4px;
+  }
+  
+  .songs-duration {
+    font-size: 13px;
+    color: #ebe2e2;
+  }
+  .songs-card-link{
+    color: rgb(197, 194, 194);
+  }

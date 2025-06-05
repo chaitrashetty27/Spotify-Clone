@@ -1,0 +1,55 @@
+.arjith-page {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.arjith-header {
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    padding: 10px;
+}
+
+.arjith-page .play-icon {
+    color: green;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.arjith-page .song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.arjith-page .song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: none;
+    gap: 15px; 
+}
+
+.arjith-page .song-rank {
+    width: 30px;
+    text-align: center;
+}
+
+.arjith-page .song-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.arjith-page .song-tit {
+    flex: 1;
+}
+
+.arjith-page .song-streams, 
+.song-duration {
+    margin-left: 10px; 
+}

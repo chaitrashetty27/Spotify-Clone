@@ -1,0 +1,117 @@
+
+.login-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.photo img {
+  width: 100px; 
+  margin-bottom: 20px;
+}
+
+
+.login-box {
+  
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); */
+} 
+
+
+ label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #1DB954; 
+  background: black;
+  color: white;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1ed760;
+}
+
+
+.phone-login {
+  color: #1DB954;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.phone-login:hover {
+  text-decoration: underline;
+}
+
+
+.login-cantainer .next-btn {
+  width: 100%;
+  background-color: #1DB954;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.next-btn {
+  background-color: #1ed760;
+  padding: 10px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+
+.login-footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+.forgot-password{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.forgot-password a{
+color: white;
+}
+.signup-text{
+  
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.signup-link{
+  color: white;
+  font-weight: bold;
+}
+
